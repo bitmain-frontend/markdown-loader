@@ -1,0 +1,34 @@
+{
+  "name": "@bitmain/markdown-loader",
+  "version": "1.0.0",
+  "description": "a loader for markdown with toc support",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "markdown",
+    "marked",
+    "toc"
+  ],
+  "author": "xueyan.lu@bitmain.com",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-toc": "^1.2.0",
+    "marked": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "colors": "^1.3.3",
+    "html-loader": "^0.5.5",
+    "jest": "^24.1.0",
+    "loader-utils": "^1.2.3",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.29.3"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
