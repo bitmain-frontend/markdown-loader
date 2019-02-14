@@ -11,6 +11,10 @@
     "marked",
     "toc"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bitmain-frontend/markdown-loader.git"
+  },
   "author": "xueyan.lu@bitmain.com",
   "license": "ISC",
   "dependencies": {
