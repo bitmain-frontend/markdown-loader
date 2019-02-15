@@ -2,7 +2,7 @@
 
 [TOC]
 
-### 识别接口
+### 识别接口 :smile:
 
 `/api/face/detect`
 

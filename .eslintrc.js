@@ -1,18 +1,16 @@
 module.exports = {
   root: true,
+
   env: {
     node: true,
-    browser: true,
+    jest: true,
+    // browser: true,
     commonjs: true,
     es6: true,
   },
-  extends: [
-    'plugin:vue/essential',
-    // '@vue/prettier'
-    '@vue/standard',
-  ],
+  extends: ['standard'],
   globals: { Logger: true },
-  plugins: ['vue', 'prettier'],
+  plugins: ['prettier', 'jest'],
   rules: {
     // 'no-console': 'error',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -42,6 +40,7 @@ module.exports = {
     ],
   },
   parserOptions: {
+    sourceType: 'module',
     parser: 'babel-eslint',
     ecmaFeatures: {
       legacyDecorators: true,
